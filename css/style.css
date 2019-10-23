@@ -1,42 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     width: 100%;
     height: 100%;
 }
 
 main {
-    margin: 0 auto;
     width: 980px;
     position: relative;
+    margin: 0 auto;
 }
 
-.menu-principal {
-    width: 100%;    
-    background-color: rgb(34, 31, 31);
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
     height: 60px;
 }
 
-.logo {
-    padding: 10px;
-    display: inline-block;
+ul {
+    padding: 0;
 }
 
-.redes-sociais {
-    position: absolute;
-    top: 10px;
-    right: 0;
+.logo {
+    float: left;
+    padding: 8px;
+    width: 65%;
 }
 
 .redes-sociais li {
-    list-style: none;
+    display: inline-block;
     float: left;
-    padding-right: 15px;
+    margin-left: 15px;
 }
 
-.redes-sociais li a img {
-    width: 40px;
+.redes-sociais {
+    width: 33%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu {
+    width: 60%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.busca input {
+    margin-top: 15px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
